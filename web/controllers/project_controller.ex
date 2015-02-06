@@ -1,4 +1,4 @@
-defmodule Ticketex.ProjectsController do
+defmodule Ticketex.ProjectController do
   use Phoenix.Controller
 
   plug :action

@@ -15,7 +15,8 @@ defmodule Ticketex.Router do
   scope "/", Ticketex do
     pipe_through :browser # Use the default browser stack
 
-    get "/", ProjectsController, :index
+    get "/", ProjectController, :index
+    resources "/project", ProjectController
   end
 
   # Other scopes may use custom stacks.
