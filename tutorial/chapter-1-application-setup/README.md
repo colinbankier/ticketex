@@ -26,3 +26,11 @@ create `test/integration/creating_projects.exs`
 
 start phantomjs
 `phantomjs --webdriver=8910`
+`mix test`
+** (RuntimeError) Unable to find element with name 'new project'
+
+set ProjectsController in router and create controller
+
+
+
+
