@@ -29,8 +29,9 @@ start phantomjs
 `mix test`
 ** (RuntimeError) Unable to find element with name 'new project'
 
-set ProjectsController in router and create controller
+set ProjectController in router and create controller
+create view and template
 
-
+create "new project" template, add "new" action to controller
 
 

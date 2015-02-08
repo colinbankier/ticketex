@@ -1,2 +1,2 @@
 <h1>Projects</h1>
-<a href="<%= project_path(Endpoint, :new) %>" name="new project">New Project</a>
+<a href="<%= project_path(Endpoint, :new) %>" name="new_project">New Project</a>

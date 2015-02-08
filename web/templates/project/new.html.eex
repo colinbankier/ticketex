@@ -1,0 +1,4 @@
+<form method="POST" action="<%= project_path(Endpoint, :create) %>">
+  <input type="text" name="project_name"/>
+  <input type="submit" name="create_project" text="Create Project"/>
+</form>
